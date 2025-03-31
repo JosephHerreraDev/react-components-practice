@@ -1,6 +1,7 @@
 import ReactIcon from "./assets/reactIcon";
 import TodoList from "./components/TodoList";
 import Gallery from "./components/Gallery";
+import List from "./components/List";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Date />
       <Gallery />
       <TodoList />
+      <List />
     </>
   );
 }
