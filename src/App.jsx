@@ -2,8 +2,8 @@ import ReactIcon from "./assets/reactIcon";
 import TodoList from "./components/TodoList";
 import Gallery from "./components/Gallery";
 import List from "./components/List";
-import Button from "./components/Button";
 import { Toolbar } from "./components/Toolbar";
+import RequestTracker from "./components/RequestTracker";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Gallery />
       <TodoList />
       <List />
+      <RequestTracker />
       <Toolbar
         onPlayMovie={() => alert("playing")}
         onUploadImage={() => alert("Uploading")}
