@@ -8,6 +8,7 @@ import MovingDot from "./components/MovingDot";
 import Form from "./components/Form";
 import ArtForm from "./components/ArtForm";
 import BucketList from "./components/BucketList";
+import { TravelPlan } from "./components/TravelPlan";
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
       <ArtForm />
       <hr />
       <BucketList />
+      <hr />
+      <TravelPlan />
     </>
   );
 }
