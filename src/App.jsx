@@ -7,6 +7,7 @@ import RequestTracker from "./components/RequestTracker";
 import MovingDot from "./components/MovingDot";
 import Form from "./components/Form";
 import ArtForm from "./components/ArtForm";
+import BucketList from "./components/BucketList";
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
       <Form />
       <hr />
       <ArtForm />
+      <hr />
+      <BucketList />
     </>
   );
 }
