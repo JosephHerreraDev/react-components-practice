@@ -11,6 +11,7 @@ import BucketList from "./components/BucketList";
 import { TravelPlan } from "./components/TravelPlan";
 import TaskApp from "./components/TaskApp";
 import Section from "./components/Section";
+import Heading from "./components/Heading";
 
 function App() {
   return (
