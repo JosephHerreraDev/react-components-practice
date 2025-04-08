@@ -9,6 +9,7 @@ import Form from "./components/Form";
 import ArtForm from "./components/ArtForm";
 import BucketList from "./components/BucketList";
 import { TravelPlan } from "./components/TravelPlan";
+import TaskApp from "./components/TaskApp";
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
       <BucketList />
       <hr />
       <TravelPlan />
+      <hr />
+      <TaskApp />
     </>
   );
 }
