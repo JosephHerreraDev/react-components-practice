@@ -12,6 +12,7 @@ import { TravelPlan } from "./components/TravelPlan";
 import TaskApp from "./components/TaskApp";
 import Section from "./components/Section";
 import Heading from "./components/Heading";
+import FocusForm from "./components/FocusForm";
 
 function App() {
   return (
@@ -63,6 +64,9 @@ function App() {
           </Section>
         </Section>
       </Section>
+      <hr />
+
+      <FocusForm />
     </>
   );
 }
